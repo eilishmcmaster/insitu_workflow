@@ -1,5 +1,5 @@
 # Load necessary libraries ####
-library(fastDiversity)
+library(fastDiversity) #https://github.com/eilishmcmaster/fastDiversity
 library(dplyr)
 library(sf)
 library(openxlsx)
