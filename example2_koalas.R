@@ -171,7 +171,7 @@ final_hull_sf <- st_set_crs(final_hull_sf, value = 3577)
 # Arrange and display clustering plots
 clustering_process_plots <- ggarrange(
   initial_map_plot + ggtitle('Koala observations in NSW 2022-25'),
-  plot_list[[1]] + ggtitle('HDBSCAN clusters'),
+  plot_list[[1]] + ggtitle('DBSCAN clusters'),
   plot_list[[2]] + ggtitle('K-means clusters round 1'),
   # plot_list[[3]] + ggtitle('K-means clusters round 2'),
   common.legend = TRUE, legend = 'bottom',
